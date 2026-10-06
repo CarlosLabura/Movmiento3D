@@ -4,7 +4,7 @@ public class Collectables : MonoBehaviour
 {
     public int ItemsCollected = 0;
     public int MaxItems = 1;
-    [SerializeField] GameObject WinCanvas;
+    [SerializeField] private GameObject WinCanvas;
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Item"))

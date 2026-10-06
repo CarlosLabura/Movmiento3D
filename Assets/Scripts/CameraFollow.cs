@@ -1,11 +1,11 @@
 using Unity.Cinemachine;
 using UnityEngine;
 
-public class Camera : MonoBehaviour
+public class CameraFollow : MonoBehaviour
 {
     public float ZoomBounds = 3;
     private float DefualtZoom;
-    [SerializeField] CinemachineFollow CMF;
+    [SerializeField] private CinemachineFollow CMF;
     void Start()
     {
         DefualtZoom = CMF.FollowOffset.z;
