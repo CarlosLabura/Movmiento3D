@@ -15,6 +15,7 @@ public class Collectables : MonoBehaviour
             if (ItemsCollected >= MaxItems)
             {
                 WinCanvas.SetActive(true);
+                Time.timeScale = 0f;
             }
         }
     }
