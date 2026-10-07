@@ -99,17 +99,17 @@
             {
                 "type": "System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089",
                 "key": "ShapeBuilder.ActiveShapeIndex",
-                "value": "{\"m_Value\":5}"
+                "value": "{\"m_Value\":8}"
             },
             {
                 "type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.LastSize.Cube",
-                "value": "{\"m_Value\":{\"x\":3.4965767860412599,\"y\":7.199640274047852,\"z\":40.9390869140625}}"
+                "value": "{\"m_Value\":{\"x\":0.7271475791931152,\"y\":3.9162023067474367,\"z\":-10.627958297729493}}"
             },
             {
                 "type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.LastSize.Cylinder",
-                "value": "{\"m_Value\":{\"x\":2.1377038955688478,\"y\":8.993642807006836,\"z\":-2.1275196075439455}}"
+                "value": "{\"m_Value\":{\"x\":2.394500732421875,\"y\":11.770149230957032,\"z\":-2.4430012702941896}}"
             },
             {
                 "type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
@@ -134,12 +134,12 @@
             {
                 "type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.LastSize.Pipe",
-                "value": "{\"m_Value\":{\"x\":6.440619468688965,\"y\":1.8337855339050294,\"z\":-6.557239532470703}}"
+                "value": "{\"m_Value\":{\"x\":-4.908905029296875,\"y\":0.8477916717529297,\"z\":3.4131808280944826}}"
             },
             {
                 "type": "UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "key": "ShapeBuilder.LastSize.Prism",
-                "value": "{\"m_Value\":{\"x\":4.602888107299805,\"y\":3.640439510345459,\"z\":-2.983530044555664}}"
+                "value": "{\"m_Value\":{\"x\":6.806369781494141,\"y\":6.482822895050049,\"z\":4.710962295532227}}"
             },
             {
                 "type": "UnityEngine.Quaternion, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
