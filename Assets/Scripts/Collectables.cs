@@ -1,16 +1,24 @@
+using TMPro;
 using UnityEngine;
 
 public class Collectables : MonoBehaviour
 {
     public int ItemsCollected = 0;
-    public int MaxItems = 1;
+    private int MaxItems;
     [SerializeField] private GameObject WinCanvas;
+    [SerializeField] private TextMeshProUGUI Text;
+    void Start()
+    {
+        MaxItems = GameObject.FindGameObjectsWithTag("Item").Length;
+        Text.SetText($"{ItemsCollected} / {MaxItems}");
+    }
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Item"))
         {
             ItemsCollected += 1;
             Destroy(other.gameObject);
+            Text.SetText($"{ItemsCollected} / {MaxItems}");
 
             if (ItemsCollected >= MaxItems)
             {
